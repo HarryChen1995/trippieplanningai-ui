@@ -8,7 +8,7 @@ const AboutUs = () => (
         <p className="card-text">
             Co-founder of TripiePlanningAI,  He is a passionate
             entrepreneur and a travel enthusiast. He has a background in computer
-            science and has worked on numerous AI projects. He dedicated to
+            science and has worked on numerous AI projects. He is dedicated to
             making travel planning easier and more accessible to everyone.
         </p>
       </div>
