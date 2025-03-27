@@ -165,16 +165,16 @@ const TripiePlanningAI: React.FC = () => {
             </div>
             <hr className="my-5 border-secondary" />
             <div className="row align-items-center">
-              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                <p className="mb-0 text-muted">
+              <div className="col-md-6">
+                <p className="text-light mb-0">
                   &copy; 2025 TripiePlanningAI. All rights reserved.
                 </p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
+              <div className="col-md-6 text-md-end">
                 <div className="d-flex justify-content-center justify-content-md-end gap-3">
-                  <a href="#" className="text-muted text-decoration-none">Terms of Service</a>
-                  <a href="#" className="text-muted text-decoration-none">Privacy Policy</a>
-                  <a href="#" className="text-muted text-decoration-none">Contact</a>
+                  <a href="#" className="text-light text-decoration-none">Terms of Service</a>
+                  <a href="#" className="text-light text-decoration-none">Privacy Policy</a>
+                  <a href="#" className="text-light text-decoration-none">Contact</a>
                 </div>
               </div>
             </div>
