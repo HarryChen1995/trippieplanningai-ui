@@ -9,7 +9,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 const TripiePlanningAI: React.FC = () => {
   return (
-    <Router basename={`${process.env.PUBLIC_URL}/trippieplanningai`} >
+    <Router>
       <div className="d-flex flex-column justify-content-center min-vh-100">
         <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
           <Container>
