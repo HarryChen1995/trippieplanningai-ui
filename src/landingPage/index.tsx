@@ -9,7 +9,7 @@ import AboutUs from "../About";
 
 const TripiePlanningAI: React.FC = () => {
   return (
-<Router basename={process.env.PUBLIC_URL}>
+<Router basename={`${process.env.PUBLIC_URL}/trippieplanningai`}>
       <div className="d-flex flex-column justify-content-center min-vh-100">
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark text-light mb-4 flex-grow-3">
           <div className="container">
