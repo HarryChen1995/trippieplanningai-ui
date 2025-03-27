@@ -1,11 +1,86 @@
+import "./index.css";
+
 const Mission = () => (
-    <section className="mb-5">
-      <h2 className="fw-bolder">Our Mission</h2>
-      <p className="fw-bold">
-      At TripiePlanningAI, we’re not just revolutionizing the travel industry – we’re building the future of effortless, personalized travel planning. Our team is dedicated to transforming the way people experience travel by leveraging cutting-edge AI technology. We aim to make travel planning intuitive, accessible, and uniquely tailored to every individual’s needs. If you’re passionate about innovation and eager to be part of a mission that’s changing how millions of people plan their journeys, we want you on our team. Join us in shaping the future of travel – together, we can create unforgettable experiences and redefine the way the world explores
-      </p>
-    </section>
-  );
+  <div className="mission-container py-5">
+    <div className="container">
+      {/* Header Section */}
+      <div className="text-center mb-5">
+        <h1 className="display-4 fw-bold mb-4">Our Mission</h1>
+        <div className="mission-divider"></div>
+      </div>
+
+      {/* Main Mission Statement */}
+      <div className="row align-items-center mb-5">
+        <div className="col-lg-6 mb-4 mb-lg-0">
+          <div className="mission-content p-4">
+            <h2 className="h3 fw-bold mb-4">Transforming Travel Planning</h2>
+            <p className="lead mb-4">
+              At TripiePlanningAI, we're not just revolutionizing the travel industry – we're building the future of effortless, personalized travel planning.
+            </p>
+            <p className="text-muted">
+              Our team is dedicated to transforming the way people experience travel by leveraging cutting-edge AI technology. We aim to make travel planning intuitive, accessible, and uniquely tailored to every individual's needs.
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-6">
+          <div className="mission-image p-4">
+            <div className="feature-icon-large mb-4">
+              <i className="bi bi-compass-fill display-1 text-primary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mission Highlights */}
+      <div className="row g-4 mb-5">
+        <div className="col-md-4">
+          <div className="mission-highlight p-4 text-center">
+            <div className="highlight-icon mb-3">
+              <i className="bi bi-lightning-charge-fill display-4 text-primary"></i>
+            </div>
+            <h3 className="h5 fw-bold mb-3">Innovation First</h3>
+            <p className="text-muted mb-0">
+              Leveraging cutting-edge AI technology to revolutionize travel planning
+            </p>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="mission-highlight p-4 text-center">
+            <div className="highlight-icon mb-3">
+              <i className="bi bi-people-fill display-4 text-primary"></i>
+            </div>
+            <h3 className="h5 fw-bold mb-3">User-Centric</h3>
+            <p className="text-muted mb-0">
+              Creating personalized experiences tailored to individual needs
+            </p>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="mission-highlight p-4 text-center">
+            <div className="highlight-icon mb-3">
+              <i className="bi bi-globe display-4 text-primary"></i>
+            </div>
+            <h3 className="h5 fw-bold mb-3">Global Impact</h3>
+            <p className="text-muted mb-0">
+              Redefining how the world explores and experiences travel
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Join Us Section */}
+      <div className="join-us-section p-5 text-center rounded-4">
+        <h2 className="h3 fw-bold mb-4">Join Our Mission</h2>
+        <p className="lead mb-4">
+          If you're passionate about innovation and eager to be part of a mission that's changing how millions of people plan their journeys, we want you on our team.
+        </p>
+        <button className="btn btn-primary btn-lg px-5">
+          Join Our Team
+        </button>
+      </div>
+    </div>
+  </div>
+);
 
 export default Mission
 

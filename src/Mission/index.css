@@ -1,0 +1,107 @@
+.mission-container {
+  background-color: #ffffff;
+}
+
+.mission-divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #0d6efd, #0a58ca);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.mission-content {
+  background: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+}
+
+.mission-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.05);
+}
+
+.feature-icon-large {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 110, 253, 0.05);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.feature-icon-large:hover {
+  transform: scale(1.1);
+  background: rgba(13, 110, 253, 0.1);
+}
+
+.mission-highlight {
+  background: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.mission-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+.highlight-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 110, 253, 0.05);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.mission-highlight:hover .highlight-icon {
+  transform: scale(1.1);
+  background: rgba(13, 110, 253, 0.1);
+}
+
+.join-us-section {
+  background: linear-gradient(45deg, #0d6efd, #0a58ca);
+  color: white;
+  box-shadow: 0 1rem 2rem rgba(13, 110, 253, 0.15);
+}
+
+.join-us-section .lead {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.join-us-section .btn-primary {
+  background: white;
+  color: #0d6efd;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.join-us-section .btn-primary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1.5rem rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .mission-content {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-icon-large {
+    width: 100px;
+    height: 100px;
+  }
+} 
