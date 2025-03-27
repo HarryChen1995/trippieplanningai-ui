@@ -1,8 +1,8 @@
 {
-  "name": "trippieplanningai",
+  "name": "tripieplanningai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harrychen1995.github.io/trippieplanningai",
+  "homepage": "https://harrychen1995.github.io/tripieplanningai",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
